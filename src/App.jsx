@@ -1,7 +1,13 @@
-import React from "react"
+import React, { useState } from "react"
+import Header from "./components/Header"
+import Meme from "./components/Meme"
 
 export default function App() {
     return (
-        <h1>hello</h1>
+        <div>
+            <Header />
+            <Meme />
+        </div>
+
     )
 }
